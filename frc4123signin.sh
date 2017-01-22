@@ -38,7 +38,7 @@ status () {
 	echo "You have just" $opnclse "a meeting. Thank you for your leadership."
 	curl -s "https://docs.google.com/forms/d/1P2WXn_4jarH4folreSVn2rj66i_e1mdQJUC0AG7r5Wg/formResponse?ifq&entry.852535003=$id&entry.1927113828=$inorout&submit=Submit" > /dev/null
 	
-  
+  "
   elif [ "$id" = "exit" ]; then
   	exit
   
